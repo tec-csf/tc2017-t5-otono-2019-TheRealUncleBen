@@ -1,5 +1,3 @@
-#ifndef TRANSFORMACIONES_H
-#define TRANSFORMACIONES_H
 
 #include <QDialog>
 #include <QtGui>
@@ -17,5 +15,3 @@ public:
     void reflexHorizontal(QVector<QTransform> & vecTrans);
     void reflexVertical(QVector<QTransform> & vecTrans);
 };
-
-#endif // TRANSFORMACIONES_H
