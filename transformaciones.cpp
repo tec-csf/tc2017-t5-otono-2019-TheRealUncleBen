@@ -22,7 +22,7 @@ void Transformaciones::trasladar(QString & xStr, QString & yStr, QVector<QTransf
         QTransform translate;
         translate.translate(x, y);
         vecTrans.push_back(translate);
-    }//cierre del if
+    }
 }
 
 void Transformaciones::rotar(QString & gradosStr, QVector<QTransform> & vecTrans)
@@ -32,7 +32,7 @@ void Transformaciones::rotar(QString & gradosStr, QVector<QTransform> & vecTrans
         QTransform rotate;
         rotate.rotate(grados);
         vecTrans.push_back(rotate);
-    }//cierre del if
+    }
 }
 
 void Transformaciones::zoomOut(QVector<QTransform> & vecTrans)
